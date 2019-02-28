@@ -10,7 +10,9 @@
     /* justify-content: space-around; */
     margin: 10px 10px 50px 10px;
     flex: 0 1 500px;
-    box-shadow: 0px 0px 5px 5px darkgrey;
+    box-shadow: 5px 5px 9px 4px #1428507e;
+    color: #212121;
+    font-family: 'Cabin', sans-serif;
 }
 
 .descript{
@@ -22,6 +24,7 @@
     width: 210px;
     height: 210px;
     align-self: center;
+    margin: 5px 0px 0px 0px;
 }
 
 .card p{
@@ -52,4 +55,16 @@
 
 img+p{
     justify-self: center;
+}
+
+.card {
+    opacity: 0.9;
+  }
+
+.card:hover {
+    opacity: 1.0;
+  }
+
+.titleName{
+    text-align: center;
 }
