@@ -1,23 +1,25 @@
-body{
-    background-color: blue;
-}
 .container{
     display: flex;
-    border: 5px red solid;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: flex-start;
 }
+
 .card{
-    background-color: brown;
-    border: 4px solid lightblue;
+    display: flex;
+    flex-flow: column wrap;
+    margin-bottom: 6%;
+    box-shadow: 5px;
 }
-.descript{
-    border: 7px dashed purple
+
+.card img{
+    display: flex;
+    justify-content: center;
+    max-width: 75%;
+    margin: auto;
 }
-.spec{
-    border: 7px dashed green;
-}
-.price{
-    border: 7px dashed yellow;
+
+.card header{
+    text-align: center;
+    border: 1px solid lightblue;
 }
