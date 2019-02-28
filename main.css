@@ -2,16 +2,26 @@
     display: flex;
     flex-wrap: wrap;
     margin: auto;
-    border: 2px solid red;
 }
 
 .card{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    /* justify-content: space-around; */
     margin: 10px 10px 50px 10px;
-    flex: 0 1 200px;
+    flex: 0 1 500px;
     box-shadow: 0px 0px 5px 5px darkgrey;
+}
+
+.descript{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.card img{
+    width: 210px;
+    height: 210px;
+    align-self: center;
 }
 
 .card p{
@@ -27,21 +37,19 @@
     border: 1px solid lightblue;
 }
 
-
 .spec p{
     font-weight: bold;
 }
-
 
 .price p{
     font-weight: bold;
 }
 
-img+p{
-    justify-self: center;
-}
-
 .avalible{
     color: yellow;
     background-color: darkgrey;
+}
+
+img+p{
+    justify-self: center;
 }
