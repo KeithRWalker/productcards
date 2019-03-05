@@ -7,7 +7,6 @@
 .card{
     display: flex;
     flex-direction: column;
-    /* justify-content: space-around; */
     margin: 10px 10px 50px 10px;
     flex: 0 1 500px;
     box-shadow: 5px 5px 9px 4px #1428507e;
@@ -67,4 +66,21 @@ img+p{
 
 .titleName{
     text-align: center;
+}
+
+
+/* SOLDOUT CHALLENGE */
+.soldout{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    float: center;
+    width: 500px;
+    height: 725px;
+}
+.soldout img{
+    width: 500px;
+    height: 350px;
+    opacity: .7;
+    margin-top: 60px;
 }
